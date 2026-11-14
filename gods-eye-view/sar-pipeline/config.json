@@ -1,0 +1,76 @@
+{
+  "project": "Inverted SAR Dual-Perspective Flood Safe-Haven Platform",
+  "challenge": "NASA Space Apps Challenge - Dancing with the SARs",
+  "version": "1.0.0",
+  "honesty_rule": "Sentinel-1 revisits every few days; it is NOT a live video feed. In UI and docs, label it 'latest SAR pass: <date/time UTC>'. Never call SAR real-time.",
+  "aoi": {
+    "name": "Nepal Bhote Koshi / Trishuli Flood Corridor",
+    "event_id": "bhote-koshi-2026",
+    "country": "Nepal",
+    "district": "Rasuwa & Nuwakot",
+    "bbox": [85.08, 27.84, 85.50, 28.38],
+    "center": [85.25, 28.10],
+    "event_date": "2026-08-26",
+    "sar_reference_pass_utc": "2026-08-20T00:15:00Z",
+    "sar_latest_pass_utc": "2026-08-27T00:15:32Z"
+  },
+  "sar_detection": {
+    "sensor": "Sentinel-1 C-band SAR",
+    "product": "GRD",
+    "mode": "IW",
+    "polarization": "VV",
+    "speckle_filter": "Lee Sigma 7x7",
+    "threshold_db": -16.0,
+    "change_detection_delta_db": -3.2,
+    "permanent_water_mask": "JRC Global Surface Water (occurrence > 80%)",
+    "steep_slope_mask_deg": 28.0,
+    "min_water_cluster_area_sqm": 2000
+  },
+  "safe_zone_algorithm": {
+    "min_height_above_flood_m": 12.0,
+    "preferred_height_above_flood_m": 25.0,
+    "max_slope_deg": 16.0,
+    "min_area_sqm": 2500,
+    "max_road_distance_m": 300,
+    "min_historical_dryness_index": 0.92,
+    "ranking_weights": {
+      "elevation_margin": 0.35,
+      "usable_area": 0.25,
+      "historical_dryness": 0.20,
+      "road_access": 0.20
+    }
+  },
+  "relief_staging": {
+    "categories": [
+      "potable_water",
+      "dry_food_rations",
+      "power_banks_and_solar",
+      "trauma_and_first_aid_medicine",
+      "sanitation_kits",
+      "weatherproof_shelter"
+    ],
+    "min_microzone_area_sqm": 1500,
+    "max_microzone_slope_deg": 8.0,
+    "min_elevation_clearance_m": 20.0,
+    "historical_dryness_threshold": 0.99
+  },
+  "routing": {
+    "flood_buffer_meters": 30.0,
+    "sever_flooded_roads": true,
+    "standard_walking_speed_kmh": 4.2,
+    "child_elderly_walking_speed_kmh": 2.8,
+    "slope_penalty_factor": 1.4,
+    "algorithm": "A*_and_Dijkstra"
+  },
+  "paths": {
+    "data_dir": "data/nepal",
+    "flood_extent": "data/nepal/flood_extent.geojson",
+    "safe_zones": "data/nepal/safe_zones.geojson",
+    "dry_microzones": "data/nepal/dry_microzones.geojson",
+    "safe_corridors": "data/nepal/safe_corridors.geojson",
+    "road_graph": "data/nepal/road_graph.json",
+    "dem_corridor": "data/nepal/dem_corridor.json",
+    "metadata": "data/nepal/metadata.json"
+  }
+}
+

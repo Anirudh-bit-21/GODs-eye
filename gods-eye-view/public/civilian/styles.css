@@ -1,0 +1,397 @@
+/* ==========================================================================
+   SAR Flood Safe-Haven Platform - Civilian Mode Stylesheet
+   Designed for Children (9-14) & Older Adults under Disaster Conditions
+   Standards: WCAG AAA High Contrast, Minimum 64px Tap Targets, Single-Focus UI
+   ========================================================================== */
+
+:root {
+  --bg-primary: #0a0e14;
+  --bg-card: #151b24;
+  --bg-elevated: #1f2733;
+  --text-main: #ffffff;
+  --text-muted: #b0bec5;
+  --accent-safe: #00e676;     /* High-vis safety green */
+  --accent-safe-bg: #003314;
+  --accent-warn: #ffd600;     /* High-vis amber warning */
+  --accent-warn-bg: #332b00;
+  --accent-danger: #ff1744;   /* Alert red */
+  --accent-blue: #00b0ff;     /* SAR radar blue */
+  --border-radius: 18px;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 19px;
+  line-height: 1.45;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Top Freshness & Offline Banner ─────────────────────────────────────── */
+.top-banner {
+  background: #00223a;
+  border-bottom: 2px solid var(--accent-blue);
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.sar-freshness {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #80d8ff;
+}
+
+.sar-badge {
+  background: #0277bd;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.offline-pill {
+  background: var(--accent-safe-bg);
+  border: 1px solid var(--accent-safe);
+  color: var(--accent-safe);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── App Container ──────────────────────────────────────────────────────── */
+.app-container {
+  max-width: 520px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.app-subtitle {
+  font-size: 16px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Giant Buttons (≥ 64px Tap Targets) ─────────────────────────────────── */
+.btn-giant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 72px;
+  padding: 16px 22px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  font-size: 22px;
+  font-weight: 900;
+  text-align: left;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.1s ease, filter 0.15s ease;
+  user-select: none;
+}
+
+.btn-giant:active {
+  transform: scale(0.97);
+}
+
+.btn-gps {
+  background-color: var(--accent-safe);
+  color: #000000;
+  border-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 230, 118, 0.4);
+}
+
+.btn-town {
+  background-color: var(--bg-card);
+  color: #ffffff;
+  border: 2px solid #37474f;
+  justify-content: space-between;
+}
+
+.btn-town:hover {
+  border-color: var(--accent-warn);
+  background-color: var(--bg-elevated);
+}
+
+.btn-town-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.town-name {
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.town-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: normal;
+}
+
+.btn-nav {
+  min-height: 68px;
+  font-size: 24px;
+  font-weight: 900;
+  border-radius: 16px;
+}
+
+.btn-next {
+  background-color: var(--accent-safe);
+  color: #000000;
+  border: 3px solid #ffffff;
+  flex: 2;
+}
+
+.btn-prev {
+  background-color: #37474f;
+  color: #ffffff;
+  border: 2px solid #546e7a;
+  flex: 1;
+}
+
+.btn-reset {
+  background-color: transparent;
+  color: var(--text-muted);
+  border: 2px dashed #455a64;
+  min-height: 56px;
+  font-size: 18px;
+  margin-top: 14px;
+}
+
+/* ── Screen: Location Picker ────────────────────────────────────────────── */
+.screen-card {
+  background-color: var(--bg-card);
+  border: 2px solid #263238;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-label {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent-warn);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Screen: Navigation / Single Instruction ───────────────────────────── */
+.nav-card {
+  background: linear-gradient(180deg, #182230 0%, #101620 100%);
+  border: 3px solid var(--accent-safe);
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+/* Giant Directional Arrow / Symbol */
+.nav-symbol-huge {
+  font-size: 100px;
+  line-height: 1;
+  margin: 10px 0 16px 0;
+  filter: drop-shadow(0 0 15px rgba(255, 214, 0, 0.6));
+  animation: pulse-arrow 2s infinite alternate ease-in-out;
+}
+
+@keyframes pulse-arrow {
+  0% { transform: translateY(0px) scale(1); }
+  100% { transform: translateY(-8px) scale(1.06); }
+}
+
+.nav-step-count {
+  background: #263238;
+  color: #eceff1;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.nav-instruction-main {
+  font-size: 26px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.nav-instruction-sub {
+  font-size: 17px;
+  color: var(--text-muted);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 10px 16px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* ── Destination & ETA Card ─────────────────────────────────────────────── */
+.destination-card {
+  background-color: var(--bg-card);
+  border: 2px solid #37474f;
+  border-radius: var(--border-radius);
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.haven-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.haven-name {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--accent-safe);
+}
+
+.haven-clearance {
+  background: var(--accent-safe-bg);
+  border: 1px solid var(--accent-safe);
+  color: var(--accent-safe);
+  font-size: 15px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+/* Dual ETA Display */
+.eta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.eta-box {
+  background: #111720;
+  border: 2px solid #263238;
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+}
+
+.eta-box.highlight {
+  border-color: var(--accent-warn);
+  background: var(--accent-warn-bg);
+}
+
+.eta-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #cfd8dc;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.eta-value {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.eta-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ── Why Safe Accordion ─────────────────────────────────────────────────── */
+.why-safe-box {
+  background: #0f1722;
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.why-safe-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #80d8ff;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.why-safe-text {
+  font-size: 14px;
+  color: #cfd8dc;
+  line-height: 1.4;
+}
+
+/* ── Route Step Controls ────────────────────────────────────────────────── */
+.nav-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* ── Audio Chime Indicator ─────────────────────────────────────────────── */
+.chime-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 12px;
+  cursor: pointer;
+}

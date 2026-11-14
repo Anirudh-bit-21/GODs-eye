@@ -1,0 +1,30 @@
+{
+  "scenario_id": "bhote-koshi-2026",
+  "name": "Nepal Bhote Koshi / Trishuli Flood Corridor",
+  "country": "Nepal",
+  "district": "Rasuwa & Nuwakot",
+  "bbox": [
+    85.08,
+    27.84,
+    85.5,
+    28.38
+  ],
+  "center": [
+    85.25,
+    28.1
+  ],
+  "event_date": "2026-08-26",
+  "sar_reference_pass_utc": "2026-08-20T00:15:00Z",
+  "sar_latest_pass_utc": "2026-08-27T00:15:32Z",
+  "sar_sensor": "Sentinel-1 C-band SAR",
+  "product_type": "GRD (Ground Range Detected), High-Res IW",
+  "polarization": "VV",
+  "speckle_filter": "Lee Sigma 7x7",
+  "backscatter_threshold_db": -16.0,
+  "dem_source": "Copernicus GLO-30 & SRTM 30m Resampled",
+  "road_source": "OpenStreetMap contributors (ODbL)",
+  "permanent_water_mask": "JRC Global Surface Water (occurrence > 80%)",
+  "honesty_rule": "Sentinel-1 revisits every few days; it is NOT a live video feed. In UI and docs, label it 'latest SAR pass: <date/time UTC>'. Never call SAR real-time.",
+  "display_badge": "latest SAR pass: 2026-08-27T00:15:32Z",
+  "dataset_version": "1.0.0"
+}

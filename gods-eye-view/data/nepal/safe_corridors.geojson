@@ -1,0 +1,238 @@
+{
+  "type": "FeatureCollection",
+  "name": "Verified Dry Evacuation Corridors",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3682,
+            28.2535
+          ],
+          [
+            85.3698,
+            28.2548
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-003",
+        "name": "Safe Corridor: Timure Ridge Junction to Timure Safe Haven Entry",
+        "destination_safe_zone_id": "SZ-06-TIMURE-CUSTOMS-HIGH-PLATEAU",
+        "distance_m": 213.2,
+        "walk_time_min_standard": 8.7,
+        "walk_time_min_vulnerable": 13.0,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 13.2,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3342,
+            28.1615
+          ],
+          [
+            85.3365,
+            28.1632
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-007",
+        "name": "Safe Corridor: Syabru Besi North Ascent Spur to Syabru Besi Safe Haven",
+        "destination_safe_zone_id": "SZ-01-SYABRU-BESI-NORTH",
+        "distance_m": 294.2,
+        "walk_time_min_standard": 12.6,
+        "walk_time_min_vulnerable": 18.9,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 14.3,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2968,
+            28.1145
+          ],
+          [
+            85.2984,
+            28.1158
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-011",
+        "name": "Safe Corridor: Hospital Road Junction to Dhunche Hospital Safe Haven",
+        "destination_safe_zone_id": "SZ-02-DHUNCHE-HOSPITAL",
+        "distance_m": 213.4,
+        "walk_time_min_standard": 4.2,
+        "walk_time_min_vulnerable": 6.3,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 2.7,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2155,
+            28.0785
+          ],
+          [
+            85.2185,
+            28.0815
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-017",
+        "name": "Safe Corridor: Upper Trishuli Link Road to Mailung Safe Haven",
+        "destination_safe_zone_id": "SZ-08-MAILUNG-HIGH-TERRACE",
+        "distance_m": 444.9,
+        "walk_time_min_standard": 17.6,
+        "walk_time_min_vulnerable": 26.4,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 12.7,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1908,
+            28.0368
+          ],
+          [
+            85.1925,
+            28.0382
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-021",
+        "name": "Safe Corridor: Dandagaun Ridge Road to Dandagaun Safe Haven",
+        "destination_safe_zone_id": "SZ-07-DANDAGAUN-VIEWPOINT-BENCH",
+        "distance_m": 228.2,
+        "walk_time_min_standard": 13.1,
+        "walk_time_min_vulnerable": 19.6,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 21.5,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1858,
+            27.9785
+          ],
+          [
+            85.1882,
+            27.9812
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-025",
+        "name": "Safe Corridor: Betrawati Terrace Ascent to Betrawati Safe Haven",
+        "destination_safe_zone_id": "SZ-04-BETRAWATI-UPPER-TERRACE",
+        "distance_m": 381.7,
+        "walk_time_min_standard": 13.4,
+        "walk_time_min_vulnerable": 20.1,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 10.4,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1518,
+            27.9238
+          ],
+          [
+            85.1554,
+            27.9265
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-030",
+        "name": "Safe Corridor: Sports Complex Access Way to Bidur Safe Haven",
+        "destination_safe_zone_id": "SZ-03-BIDUR-SPORTS-TERRACE",
+        "distance_m": 463.9,
+        "walk_time_min_standard": 13.4,
+        "walk_time_min_vulnerable": 20.2,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 7.4,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1122,
+            27.8608
+          ],
+          [
+            85.1152,
+            27.8635
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "SC-035",
+        "name": "Safe Corridor: Mahadev Ridge Road to Devighat Safe Haven",
+        "destination_safe_zone_id": "SZ-05-DEVIGHAT-MAHADEV-RIDGE",
+        "distance_m": 420.8,
+        "walk_time_min_standard": 13.9,
+        "walk_time_min_vulnerable": 20.9,
+        "status": "dry_safe",
+        "surface": "paved_road",
+        "slope_deg": 9.4,
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    }
+  ]
+}

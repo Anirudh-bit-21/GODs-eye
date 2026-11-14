@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production build artifacts
+dist/
+**/dist/
+
+# Environment and sensitive keys
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and debugging
+*.log
+**/*.log
+.gev-logs/
+.gev-cache/
+qa-artifacts/
+screenshots/
+qa-shots/
+output/
+.playwright-mcp/
+.claude/
+
+# Caches
+.cache/
+**/.cache/
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db

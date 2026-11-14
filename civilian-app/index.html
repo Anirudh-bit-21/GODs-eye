@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0e14">
+  <meta name="description" content="Inverted SAR Dual-Perspective Flood Safe-Haven Civilian Routing App. Offline-resilient, child and elderly friendly.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>SAR Safe Haven Evacuation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top SAR Honesty & Offline Status Bar -->
+  <header class="top-banner">
+    <div class="sar-freshness">
+      <span class="sar-badge">SAR PASS</span>
+      <span id="sar-time-label">2026-08-26 12:45 UTC</span>
+      <span style="opacity: 0.7; font-size: 11px;">(NOT real-time)</span>
+    </div>
+    <div id="offline-status" class="offline-pill">
+      <span>●</span> <span id="offline-text">OFFLINE READY</span>
+    </div>
+  </header>
+
+  <main class="app-container">
+
+    <!-- Header / Brand -->
+    <section class="app-header">
+      <h1 class="app-title">
+        <span style="color: var(--accent-safe);">🛡️</span> SAR SAFE HAVEN
+      </h1>
+      <p class="app-subtitle">Child & Elder Safe Route Finder · Nepal Flood Corridor</p>
+    </section>
+
+    <!-- SCREEN 1: Location Selection Screen -->
+    <section id="screen-picker" class="screen-card">
+      <div class="section-label">
+        <span>📍</span> <span>Step 1: Where are you right now?</span>
+      </div>
+
+      <!-- Giant GPS Button -->
+      <button id="btn-gps" class="btn-giant btn-gps" type="button">
+        <span style="font-size: 32px;">🧭</span>
+        <span>USE MY GPS LOCATION</span>
+      </button>
+
+      <div style="text-align: center; margin: 14px 0; color: var(--text-muted); font-size: 14px; font-weight: 700;">
+        — OR TAP YOUR NEAREST TOWN —
+      </div>
+
+      <!-- Quick Preset Buttons for Children / Elders -->
+      <div id="town-list">
+        <button class="btn-giant btn-town" data-town="timure" data-lat="28.2830" data-lon="85.3780" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Timure Bazaar</span>
+            <span class="town-desc">Northern Border Pass · Elevation 1,760m</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+
+        <button class="btn-giant btn-town" data-town="syabrubesi" data-lat="28.1610" data-lon="85.3420" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Syabru Besi Market</span>
+            <span class="town-desc">Valley Fork · Lowland Flood Edge</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+
+        <button class="btn-giant btn-town" data-town="dhunche" data-lat="28.1130" data-lon="85.3010" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Dhunche Town Center</span>
+            <span class="town-desc">District HQ · High Ridge</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+
+        <button class="btn-giant btn-town" data-town="mailung" data-lat="28.0280" data-lon="85.2280" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Mailung Bridge Area</span>
+            <span class="town-desc">Mid-Valley Gorge Route</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+
+        <button class="btn-giant btn-town" data-town="betrawati" data-lat="27.9780" data-lon="85.1880" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Betrawati Riverfront</span>
+            <span class="town-desc">Trishuli Confluence</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+
+        <button class="btn-giant btn-town" data-town="bidur" data-lat="27.9150" data-lon="85.1580" type="button">
+          <div class="btn-town-content">
+            <span class="town-name">Bidur Trishuli Riverside</span>
+            <span class="town-desc">Southern Lowland Zone</span>
+          </div>
+          <span style="font-size: 28px;">❯</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SCREEN 2: Active Evacuation & Step-by-Step Navigation -->
+    <section id="screen-navigation" style="display: none;">
+
+      <!-- Destination Safe Haven Overview Card -->
+      <div class="destination-card">
+        <div class="haven-header">
+          <div>
+            <div style="font-size: 13px; color: var(--text-muted); font-weight: 800; text-transform: uppercase;">
+              Destination Safe Haven
+            </div>
+            <div id="dest-haven-name" class="haven-name">Dhunche High Ridge Helipad</div>
+          </div>
+          <div id="dest-haven-clearance" class="haven-clearance">+38m DRY</div>
+        </div>
+
+        <!-- Dual ETA Grid (Child/Elderly vs Standard) -->
+        <div class="eta-grid">
+          <div class="eta-box highlight">
+            <div class="eta-title">
+              <span>🚶👶👵</span> <span>CHILD & ELDER</span>
+            </div>
+            <div id="eta-child-elder" class="eta-value">~18 min</div>
+            <div class="eta-desc">Pace: 2.8 km/h (slow/mud)</div>
+          </div>
+
+          <div class="eta-box">
+            <div class="eta-title">
+              <span>🏃</span> <span>STANDARD ADULT</span>
+            </div>
+            <div id="eta-standard" class="eta-value">~12 min</div>
+            <div class="eta-desc">Pace: 4.2 km/h</div>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-top: 10px; font-size: 14px; color: var(--text-muted);">
+          <span>Total Distance: <strong id="route-distance" style="color: white;">1.1 km</strong></span>
+          <span>SAR Severances Bypassed: <strong style="color: var(--accent-safe);">7 Flooded Edges</strong></span>
+        </div>
+      </div>
+
+      <!-- GIANT SINGLE INSTRUCTION CARD (One instruction per screen) -->
+      <div class="nav-card">
+        <div id="nav-step-count" class="nav-step-count">STEP 1 OF 4</div>
+        <div id="nav-symbol" class="nav-symbol-huge">⬆️</div>
+        <div id="nav-instruction-main" class="nav-instruction-main">
+          Head straight uphill away from the river bank.
+        </div>
+        <div id="nav-instruction-sub" class="nav-instruction-sub">
+          Verified dry paved highway. Stay on the mountain-facing shoulder.
+        </div>
+      </div>
+
+      <!-- Large Navigation Buttons (Next / Prev) -->
+      <div class="nav-controls">
+        <button id="btn-prev-step" class="btn-giant btn-nav btn-prev" type="button" disabled>
+          <span>❮ BACK</span>
+        </button>
+        <button id="btn-next-step" class="btn-giant btn-nav btn-next" type="button">
+          <span>NEXT STEP ❯</span>
+        </button>
+      </div>
+
+      <!-- Why Safe Accordion -->
+      <div class="why-safe-box">
+        <div class="why-safe-title">
+          <span>🛡️</span> <span>WHY IS THIS ROUTE SAFE?</span>
+        </div>
+        <div id="why-safe-text" class="why-safe-text">
+          Verified dry by Sentinel-1 SAR microwave radar pass (no cloud obstruction). Road elevation stays at least 25 meters above water level. Safe haven includes pre-staged water and emergency food cache.
+        </div>
+      </div>
+
+      <!-- Change Location Button -->
+      <button id="btn-change-location" class="btn-giant btn-reset" type="button">
+        <span>🔄 CHOOSE ANOTHER START LOCATION</span>
+      </button>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
+

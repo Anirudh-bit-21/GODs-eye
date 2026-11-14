@@ -1,0 +1,3036 @@
+{
+  "type": "FeatureCollection",
+  "name": "SAR Flood Extent - Nepal Bhote Koshi",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.48223688060156,
+              28.33204357280759
+            ],
+            [
+              85.48238311939843,
+              28.33353642719241
+            ],
+            [
+              85.48483311939843,
+              28.333296427192412
+            ],
+            [
+              85.48468688060156,
+              28.33180357280759
+            ],
+            [
+              85.48223688060156,
+              28.33204357280759
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-001",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1639.2,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.47863815169237,
+              28.332000044301367
+            ],
+            [
+              85.47862184830763,
+              28.333499955698635
+            ],
+            [
+              85.48230184830763,
+              28.333539955698633
+            ],
+            [
+              85.48231815169237,
+              28.332040044301365
+            ],
+            [
+              85.47863815169237,
+              28.332000044301367
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-002",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1639.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.47485875545743,
+              28.33250686505761
+            ],
+            [
+              85.47506124454256,
+              28.33399313494239
+            ],
+            [
+              85.47873124454256,
+              28.33349313494239
+            ],
+            [
+              85.47852875545743,
+              28.33200686505761
+            ],
+            [
+              85.47485875545743,
+              28.33250686505761
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-003",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1639.6,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.47117902558497,
+              28.333006828305493
+            ],
+            [
+              85.47138097441501,
+              28.334493171694504
+            ],
+            [
+              85.47506097441502,
+              28.333993171694505
+            ],
+            [
+              85.47485902558498,
+              28.332506828305494
+            ],
+            [
+              85.47117902558497,
+              28.333006828305493
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-004",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1640.2,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.46613199791231,
+              28.334605496642407
+            ],
+            [
+              85.46658800208768,
+              28.33603450335759
+            ],
+            [
+              85.47150800208767,
+              28.33446450335759
+            ],
+            [
+              85.47105199791231,
+              28.333035496642406
+            ],
+            [
+              85.46613199791231,
+              28.334605496642407
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-005",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1641.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.46129601957722,
+              28.335615976819575
+            ],
+            [
+              85.46160398042278,
+              28.337084023180424
+            ],
+            [
+              85.46651398042277,
+              28.336054023180424
+            ],
+            [
+              85.46620601957721,
+              28.334585976819575
+            ],
+            [
+              85.46129601957722,
+              28.335615976819575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-006",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1643.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.45655918298505,
+              28.335540056220253
+            ],
+            [
+              85.45654081701494,
+              28.33703994377975
+            ],
+            [
+              85.46144081701495,
+              28.337099943779748
+            ],
+            [
+              85.46145918298505,
+              28.33560005622025
+            ],
+            [
+              85.45655918298505,
+              28.335540056220253
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-007",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1643.6,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.45180016630862,
+              28.334691381876677
+            ],
+            [
+              85.45153983369137,
+              28.33616861812332
+            ],
+            [
+              85.45641983369137,
+              28.337028618123323
+            ],
+            [
+              85.45668016630862,
+              28.33555138187668
+            ],
+            [
+              85.45180016630862,
+              28.334691381876677
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-008",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1643.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.44677918298505,
+              28.334620056220253
+            ],
+            [
+              85.44676081701495,
+              28.33611994377975
+            ],
+            [
+              85.45166081701494,
+              28.336179943779747
+            ],
+            [
+              85.45167918298505,
+              28.33468005622025
+            ],
+            [
+              85.44677918298505,
+              28.334620056220253
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-009",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1642.5,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.44193049863762,
+              28.33429170200615
+            ],
+            [
+              85.44182950136238,
+              28.335788297993847
+            ],
+            [
+              85.44671950136238,
+              28.33611829799385
+            ],
+            [
+              85.44682049863762,
+              28.334621702006153
+            ],
+            [
+              85.44193049863762,
+              28.33429170200615
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-010",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1642.2,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.43703897500255,
+              28.333971600742167
+            ],
+            [
+              85.43694102499744,
+              28.335468399257834
+            ],
+            [
+              85.44183102499744,
+              28.335788399257833
+            ],
+            [
+              85.44192897500255,
+              28.334291600742166
+            ],
+            [
+              85.43703897500255,
+              28.333971600742167
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-011",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1641.9,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.43256278001094,
+              28.330790518715094
+            ],
+            [
+              85.43171721998907,
+              28.33202948128491
+            ],
+            [
+              85.43656721998906,
+              28.335339481284908
+            ],
+            [
+              85.43741278001093,
+              28.334100518715093
+            ],
+            [
+              85.43256278001094,
+              28.330790518715094
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-012",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1639.7,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.42743061144834,
+              28.32953966327376
+            ],
+            [
+              85.42708938855166,
+              28.331000336726238
+            ],
+            [
+              85.43196938855166,
+              28.33214033672624
+            ],
+            [
+              85.43231061144834,
+              28.330679663273763
+            ],
+            [
+              85.42743061144834,
+              28.32953966327376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-013",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1637.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.42247002069085,
+              28.328935422082505
+            ],
+            [
+              85.42228997930916,
+              28.330424577917494
+            ],
+            [
+              85.42716997930916,
+              28.331014577917493
+            ],
+            [
+              85.42735002069085,
+              28.329525422082504
+            ],
+            [
+              85.42247002069085,
+              28.328935422082505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-014",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1636.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.41786307302247,
+              28.32651306604431
+            ],
+            [
+              85.41717692697752,
+              28.327846933955687
+            ],
+            [
+              85.42203692697753,
+              28.33034693395569
+            ],
+            [
+              85.42272307302248,
+              28.32901306604431
+            ],
+            [
+              85.41786307302247,
+              28.32651306604431
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-015",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1634.1,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.41317902326038,
+              28.315183778888915
+            ],
+            [
+              85.41180097673963,
+              28.315776221111086
+            ],
+            [
+              85.41683097673962,
+              28.327476221111084
+            ],
+            [
+              85.41820902326037,
+              28.326883778888913
+            ],
+            [
+              85.41317902326038,
+              28.315183778888915
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-016",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1625.6,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.4132699276725,
+              28.31333041566212
+            ],
+            [
+              85.4117700723275,
+              28.313309584337883
+            ],
+            [
+              85.4117400723275,
+              28.315469584337883
+            ],
+            [
+              85.4132399276725,
+              28.31549041566212
+            ],
+            [
+              85.4132699276725,
+              28.31333041566212
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-017",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1617.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.41240607912896,
+              28.308826168446064
+            ],
+            [
+              85.41093392087105,
+              28.309113831553933
+            ],
+            [
+              85.41178392087104,
+              28.313463831553936
+            ],
+            [
+              85.41325607912896,
+              28.313176168446066
+            ],
+            [
+              85.41240607912896,
+              28.308826168446064
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-018",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1613.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.40917944987179,
+              28.30542879115853
+            ],
+            [
+              85.4081205501282,
+              28.306491208841468
+            ],
+            [
+              85.41114055012821,
+              28.309501208841468
+            ],
+            [
+              85.41219944987179,
+              28.30843879115853
+            ],
+            [
+              85.40917944987179,
+              28.30542879115853
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-019",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1609.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.40551045119246,
+              28.302364094928247
+            ],
+            [
+              85.40454954880754,
+              28.30351590507175
+            ],
+            [
+              85.40816954880754,
+              28.30653590507175
+            ],
+            [
+              85.40913045119245,
+              28.305384094928247
+            ],
+            [
+              85.40551045119246,
+              28.302364094928247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-020",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1605.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.4006360034437,
+              28.29875702327723
+            ],
+            [
+              85.3997439965563,
+              28.29996297672277
+            ],
+            [
+              85.4045839965563,
+              28.30354297672277
+            ],
+            [
+              85.4054760034437,
+              28.30233702327723
+            ],
+            [
+              85.4006360034437,
+              28.29875702327723
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-021",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1601.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.39631860955993,
+              28.292385945507778
+            ],
+            [
+              85.39508139044008,
+              28.29323405449222
+            ],
+            [
+              85.39957139044007,
+              28.29978405449222
+            ],
+            [
+              85.40080860955992,
+              28.29893594550778
+            ],
+            [
+              85.39631860955993,
+              28.292385945507778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-022",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1595.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.39165496601713,
+              28.288397891651666
+            ],
+            [
+              85.39068503398288,
+              28.289542108348332
+            ],
+            [
+              85.39521503398288,
+              28.293382108348332
+            ],
+            [
+              85.39618496601713,
+              28.292237891651666
+            ],
+            [
+              85.39165496601713,
+              28.288397891651666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-023",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1589.1,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.38671832331313,
+              28.285294517082672
+            ],
+            [
+              85.38592167668686,
+              28.28656548291733
+            ],
+            [
+              85.39077167668687,
+              28.289605482917327
+            ],
+            [
+              85.39156832331314,
+              28.28833451708267
+            ],
+            [
+              85.38671832331313,
+              28.285294517082672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-024",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1584.9,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.38229395506947,
+              28.28126454587233
+            ],
+            [
+              85.38128604493052,
+              28.28237545412767
+            ],
+            [
+              85.38581604493052,
+              28.28648545412767
+            ],
+            [
+              85.38682395506947,
+              28.28537454587233
+            ],
+            [
+              85.38229395506947,
+              28.28126454587233
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-025",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1580.7,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.37821049109975,
+              28.280104594498976
+            ],
+            [
+              85.37782950890026,
+              28.281555405501027
+            ],
+            [
+              85.38159950890025,
+              28.282545405501025
+            ],
+            [
+              85.38198049109974,
+              28.281094594498974
+            ],
+            [
+              85.37821049109975,
+              28.280104594498976
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-026",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1577.6,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.37715447127232,
+              28.272938171313214
+            ],
+            [
+              85.37568552872767,
+              28.273241828686785
+            ],
+            [
+              85.37728552872768,
+              28.280981828686787
+            ],
+            [
+              85.37875447127233,
+              28.280678171313216
+            ],
+            [
+              85.37715447127232,
+              28.272938171313214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-027",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1572.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.37602799686407,
+              28.26671635633712
+            ],
+            [
+              85.37455200313595,
+              28.266983643662883
+            ],
+            [
+              85.37568200313594,
+              28.27322364366288
+            ],
+            [
+              85.37715799686406,
+              28.27295635633712
+            ],
+            [
+              85.37602799686407,
+              28.26671635633712
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-028",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1564.0,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.37250872059747,
+              28.263028065295543
+            ],
+            [
+              85.37145127940252,
+              28.264091934704453
+            ],
+            [
+              85.37476127940253,
+              28.267381934704456
+            ],
+            [
+              85.37581872059748,
+              28.266318065295547
+            ],
+            [
+              85.37250872059747,
+              28.263028065295543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-029",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1558.2,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.36726024874677,
+              28.25161414933512
+            ],
+            [
+              85.36589975125322,
+              28.252245850664885
+            ],
+            [
+              85.37129975125322,
+              28.26387585066488
+            ],
+            [
+              85.37266024874677,
+              28.263244149335115
+            ],
+            [
+              85.36726024874677,
+              28.25161414933512
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-030",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1549.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.36492178561085,
+              28.243296221856014
+            ],
+            [
+              85.36347821438915,
+              28.24370377814399
+            ],
+            [
+              85.36585821438915,
+              28.25213377814399
+            ],
+            [
+              85.36730178561085,
+              28.251726221856014
+            ],
+            [
+              85.36492178561085,
+              28.243296221856014
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-031",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1537.3,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.36080574444364,
+              28.23184617962992
+            ],
+            [
+              85.35939425555637,
+              28.23235382037008
+            ],
+            [
+              85.36349425555636,
+              28.24375382037008
+            ],
+            [
+              85.36490574444363,
+              28.24324617962992
+            ],
+            [
+              85.36080574444364,
+              28.23184617962992
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-032",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1525.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.35599301262431,
+              28.220213236155455
+            ],
+            [
+              85.35460698737569,
+              28.220786763844547
+            ],
+            [
+              85.35940698737569,
+              28.232386763844545
+            ],
+            [
+              85.36079301262431,
+              28.231813236155453
+            ],
+            [
+              85.35599301262431,
+              28.220213236155455
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-033",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1511.6,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.35149761641601,
+              28.20882462509895
+            ],
+            [
+              85.350102383584,
+              28.20937537490105
+            ],
+            [
+              85.354602383584,
+              28.220775374901052
+            ],
+            [
+              85.355997616416,
+              28.22022462509895
+            ],
+            [
+              85.35149761641601,
+              28.20882462509895
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-034",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1497.8,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.34659900350366,
+              28.196228165304134
+            ],
+            [
+              85.34520099649635,
+              28.196771834695866
+            ],
+            [
+              85.35010099649635,
+              28.209371834695865
+            ],
+            [
+              85.35149900350366,
+              28.208828165304134
+            ],
+            [
+              85.34659900350366,
+              28.196228165304134
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-035",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1483.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.34088935877251,
+              28.182904560526065
+            ],
+            [
+              85.33951064122748,
+              28.183495439473933
+            ],
+            [
+              85.34521064122748,
+              28.196795439473934
+            ],
+            [
+              85.34658935877252,
+              28.196204560526066
+            ],
+            [
+              85.34088935877251,
+              28.182904560526065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-036",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1467.8,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.3368042926377,
+              28.171742178587987
+            ],
+            [
+              85.33539570736231,
+              28.172257821412014
+            ],
+            [
+              85.3394957073623,
+              28.183457821412013
+            ],
+            [
+              85.34090429263769,
+              28.182942178587986
+            ],
+            [
+              85.3368042926377,
+              28.171742178587987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-037",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1453.1,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.33327811690644,
+              28.16003364818308
+            ],
+            [
+              85.33184188309356,
+              28.160466351816922
+            ],
+            [
+              85.33538188309356,
+              28.17221635181692
+            ],
+            [
+              85.33681811690644,
+              28.17178364818308
+            ],
+            [
+              85.33327811690644,
+              28.16003364818308
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-038",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1439.4,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.32743271732627,
+              28.150797298143726
+            ],
+            [
+              85.32616728267374,
+              28.151602701856273
+            ],
+            [
+              85.33192728267373,
+              28.160652701856275
+            ],
+            [
+              85.33319271732627,
+              28.159847298143728
+            ],
+            [
+              85.32743271732627,
+              28.150797298143726
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-039",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 1426.9,
+        "water_depth_estimate_m": 5.2,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.31894047314441,
+              28.139904853360573
+            ],
+            [
+              85.3174595268556,
+              28.141095146639426
+            ],
+            [
+              85.3260595268556,
+              28.151795146639426
+            ],
+            [
+              85.32754047314441,
+              28.150604853360573
+            ],
+            [
+              85.31894047314441,
+              28.139904853360573
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-040",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 859.8,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.30916111882713,
+              28.13041778163583
+            ],
+            [
+              85.30783888117286,
+              28.13178221836417
+            ],
+            [
+              85.31753888117287,
+              28.141182218364168
+            ],
+            [
+              85.31886111882714,
+              28.13981778163583
+            ],
+            [
+              85.30916111882713,
+              28.13041778163583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-041",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 855.7,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.29609550035964,
+              28.112617408496856
+            ],
+            [
+              85.29456449964037,
+              28.113742591503144
+            ],
+            [
+              85.30773449964036,
+              28.131662591503144
+            ],
+            [
+              85.30926550035963,
+              28.130537408496856
+            ],
+            [
+              85.29609550035964,
+              28.112617408496856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-042",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 850.1,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.27575312630361,
+              28.104318069269326
+            ],
+            [
+              85.2750468736964,
+              28.106081930730674
+            ],
+            [
+              85.2949768736964,
+              28.114061930730674
+            ],
+            [
+              85.29568312630362,
+              28.112298069269325
+            ],
+            [
+              85.27575312630361,
+              28.104318069269326
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-043",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 844.8,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.25145698940167,
+              28.097485420070512
+            ],
+            [
+              85.25094301059832,
+              28.09931457992949
+            ],
+            [
+              85.27514301059833,
+              28.10611457992949
+            ],
+            [
+              85.27565698940168,
+              28.10428542007051
+            ],
+            [
+              85.25145698940167,
+              28.097485420070512
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-044",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 841.7,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.23263943566509,
+              28.090036600477717
+            ],
+            [
+              85.23194056433492,
+              28.091803399522284
+            ],
+            [
+              85.25085056433491,
+              28.099283399522285
+            ],
+            [
+              85.25154943566508,
+              28.097516600477718
+            ],
+            [
+              85.23263943566509,
+              28.090036600477717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-045",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 838.8,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.21308833521458,
+              28.07539875425527
+            ],
+            [
+              85.21195166478542,
+              28.07692124574473
+            ],
+            [
+              85.23172166478543,
+              28.09168124574473
+            ],
+            [
+              85.23285833521459,
+              28.09015875425527
+            ],
+            [
+              85.21308833521458,
+              28.07539875425527
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-046",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 834.3,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.20787705195033,
+              28.07425859698955
+            ],
+            [
+              85.20750294804967,
+              28.076121403010447
+            ],
+            [
+              85.21233294804966,
+              28.07709140301045
+            ],
+            [
+              85.21270705195033,
+              28.075228596989554
+            ],
+            [
+              85.20787705195033,
+              28.07425859698955
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-047",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 831.0,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.2020999274461,
+              28.05569564725768
+            ],
+            [
+              85.2003000725539,
+              28.056304352742323
+            ],
+            [
+              85.2067900725539,
+              28.07549435274232
+            ],
+            [
+              85.2085899274461,
+              28.074885647257677
+            ],
+            [
+              85.2020999274461,
+              28.05569564725768
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-048",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 826.9,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1962860679308,
+              28.040657387066762
+            ],
+            [
+              85.19451393206921,
+              28.04134261293324
+            ],
+            [
+              85.20031393206921,
+              28.05634261293324
+            ],
+            [
+              85.2020860679308,
+              28.055657387066763
+            ],
+            [
+              85.1962860679308,
+              28.040657387066762
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-049",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 819.9,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.19007993707875,
+              28.034707120649983
+            ],
+            [
+              85.18878006292125,
+              28.036092879350015
+            ],
+            [
+              85.19475006292126,
+              28.041692879350016
+            ],
+            [
+              85.19604993707875,
+              28.040307120649985
+            ],
+            [
+              85.19007993707875,
+              28.034707120649983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-050",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 815.7,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18744263917203,
+              28.011881968684868
+            ],
+            [
+              85.18555736082796,
+              28.012118031315133
+            ],
+            [
+              85.18848736082796,
+              28.03551803131513
+            ],
+            [
+              85.19037263917204,
+              28.035281968684867
+            ],
+            [
+              85.18744263917203,
+              28.011881968684868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-051",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 809.7,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18574658661021,
+              27.991919540138134
+            ],
+            [
+              85.18385341338978,
+              27.992080459861867
+            ],
+            [
+              85.18555341338978,
+              28.012080459861867
+            ],
+            [
+              85.1874465866102,
+              28.011919540138134
+            ],
+            [
+              85.18574658661021,
+              27.991919540138134
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-052",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 800.8,
+        "water_depth_estimate_m": 4.6,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18537427810878,
+              27.975744609981493
+            ],
+            [
+              85.18168572189123,
+              27.976035390018506
+            ],
+            [
+              85.18295572189122,
+              27.992145390018507
+            ],
+            [
+              85.18664427810877,
+              27.991854609981495
+            ],
+            [
+              85.18537427810878,
+              27.975744609981493
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-053",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 534.3,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.17548274767532,
+              27.961245061283062
+            ],
+            [
+              85.17245725232468,
+              27.963374938716935
+            ],
+            [
+              85.18201725232468,
+              27.976954938716936
+            ],
+            [
+              85.18504274767533,
+              27.974825061283063
+            ],
+            [
+              85.17548274767532,
+              27.961245061283062
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-054",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 530.0,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.162996956231,
+              27.95287458742589
+            ],
+            [
+              85.160963043769,
+              27.95596541257411
+            ],
+            [
+              85.172953043769,
+              27.96385541257411
+            ],
+            [
+              85.174986956231,
+              27.96076458742589
+            ],
+            [
+              85.162996956231,
+              27.95287458742589
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-055",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 526.9,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.16067669554961,
+              27.93990206634849
+            ],
+            [
+              85.15706330445038,
+              27.94069793365151
+            ],
+            [
+              85.16017330445038,
+              27.95481793365151
+            ],
+            [
+              85.16378669554962,
+              27.95402206634849
+            ],
+            [
+              85.16067669554961,
+              27.93990206634849
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-056",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 523.7,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.15635605752976,
+              27.931787709282673
+            ],
+            [
+              85.15310394247024,
+              27.93355229071733
+            ],
+            [
+              85.15724394247023,
+              27.94118229071733
+            ],
+            [
+              85.16049605752976,
+              27.939417709282672
+            ],
+            [
+              85.15635605752976,
+              27.931787709282673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-057",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 520.6,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.14962883997737,
+              27.919936690672753
+            ],
+            [
+              85.14641116002264,
+              27.92176330932725
+            ],
+            [
+              85.15312116002264,
+              27.93358330932725
+            ],
+            [
+              85.15633883997737,
+              27.931756690672753
+            ],
+            [
+              85.14962883997737,
+              27.919936690672753
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-058",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.0,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 517.8,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.13395178722875,
+              27.90005334667733
+            ],
+            [
+              85.13104821277123,
+              27.90234665332267
+            ],
+            [
+              85.14656821277124,
+              27.921996653322672
+            ],
+            [
+              85.14947178722876,
+              27.91970334667733
+            ],
+            [
+              85.13395178722875,
+              27.90005334667733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-059",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.4,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 513.2,
+        "water_depth_estimate_m": 3.9,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.12087828348471,
+              27.880041179020594
+            ],
+            [
+              85.11692171651528,
+              27.882758820979404
+            ],
+            [
+              85.13052171651528,
+              27.902558820979404
+            ],
+            [
+              85.13447828348471,
+              27.899841179020594
+            ],
+            [
+              85.12087828348471,
+              27.880041179020594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-060",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -19.8,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 365.3,
+        "water_depth_estimate_m": 3.4,
+        "severity": "high",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1112337000423,
+              27.857569365410072
+            ],
+            [
+              85.1068262999577,
+              27.859470634589925
+            ],
+            [
+              85.1166962999577,
+              27.882350634589926
+            ],
+            [
+              85.1211037000423,
+              27.880449365410072
+            ],
+            [
+              85.1112337000423,
+              27.857569365410072
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-061",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.2,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 359.8,
+        "water_depth_estimate_m": 3.4,
+        "severity": "high",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.4903389,
+              28.3346111
+            ],
+            [
+              85.49031867585202,
+              28.334199428010617
+            ],
+            [
+              85.4902581981777,
+              28.333791720647532
+            ],
+            [
+              85.49015804941007,
+              28.33339190435553
+            ],
+            [
+              85.49001919403655,
+              28.333003829584065
+            ],
+            [
+              85.48984296931026,
+              28.33263123370533
+            ],
+            [
+              85.48963107237167,
+              28.33227770502132
+            ],
+            [
+              85.48938554390412,
+              28.33194664820651
+            ],
+            [
+              85.48910874848099,
+              28.331641251519017
+            ],
+            [
+              85.48880335179349,
+              28.331364456095876
+            ],
+            [
+              85.48847229497868,
+              28.331118927628328
+            ],
+            [
+              85.48811876629468,
+              28.330907030689737
+            ],
+            [
+              85.48774617041593,
+              28.33073080596345
+            ],
+            [
+              85.48735809564447,
+              28.330591950589923
+            ],
+            [
+              85.48695827935246,
+              28.330491801822305
+            ],
+            [
+              85.48655057198938,
+              28.330431324147977
+            ],
+            [
+              85.4861389,
+              28.3304111
+            ],
+            [
+              85.48572722801062,
+              28.330431324147977
+            ],
+            [
+              85.48531952064754,
+              28.330491801822305
+            ],
+            [
+              85.48491970435553,
+              28.330591950589923
+            ],
+            [
+              85.48453162958407,
+              28.33073080596345
+            ],
+            [
+              85.48415903370532,
+              28.330907030689737
+            ],
+            [
+              85.48380550502132,
+              28.331118927628328
+            ],
+            [
+              85.48347444820651,
+              28.331364456095876
+            ],
+            [
+              85.48316905151901,
+              28.331641251519017
+            ],
+            [
+              85.48289225609588,
+              28.33194664820651
+            ],
+            [
+              85.48264672762834,
+              28.33227770502132
+            ],
+            [
+              85.48243483068974,
+              28.33263123370533
+            ],
+            [
+              85.48225860596345,
+              28.333003829584065
+            ],
+            [
+              85.48211975058993,
+              28.33339190435553
+            ],
+            [
+              85.4820196018223,
+              28.333791720647532
+            ],
+            [
+              85.48195912414798,
+              28.334199428010617
+            ],
+            [
+              85.4819389,
+              28.3346111
+            ],
+            [
+              85.48195912414798,
+              28.335022771989383
+            ],
+            [
+              85.4820196018223,
+              28.335430479352468
+            ],
+            [
+              85.48211975058993,
+              28.33583029564447
+            ],
+            [
+              85.48225860596345,
+              28.336218370415935
+            ],
+            [
+              85.48243483068974,
+              28.33659096629467
+            ],
+            [
+              85.48264672762834,
+              28.33694449497868
+            ],
+            [
+              85.48289225609588,
+              28.33727555179349
+            ],
+            [
+              85.48316905151901,
+              28.337580948480984
+            ],
+            [
+              85.48347444820651,
+              28.337857743904124
+            ],
+            [
+              85.48380550502132,
+              28.338103272371672
+            ],
+            [
+              85.48415903370532,
+              28.338315169310263
+            ],
+            [
+              85.48453162958407,
+              28.33849139403655
+            ],
+            [
+              85.48491970435553,
+              28.338630249410077
+            ],
+            [
+              85.48531952064754,
+              28.338730398177695
+            ],
+            [
+              85.48572722801062,
+              28.338790875852023
+            ],
+            [
+              85.4861389,
+              28.3388111
+            ],
+            [
+              85.48655057198938,
+              28.338790875852023
+            ],
+            [
+              85.48695827935246,
+              28.338730398177695
+            ],
+            [
+              85.48735809564447,
+              28.338630249410077
+            ],
+            [
+              85.48774617041593,
+              28.33849139403655
+            ],
+            [
+              85.48811876629468,
+              28.338315169310263
+            ],
+            [
+              85.48847229497868,
+              28.338103272371672
+            ],
+            [
+              85.48880335179349,
+              28.337857743904124
+            ],
+            [
+              85.48910874848099,
+              28.337580948480984
+            ],
+            [
+              85.48938554390412,
+              28.33727555179349
+            ],
+            [
+              85.48963107237167,
+              28.33694449497868
+            ],
+            [
+              85.48984296931026,
+              28.33659096629467
+            ],
+            [
+              85.49001919403655,
+              28.336218370415935
+            ],
+            [
+              85.49015804941007,
+              28.33583029564447
+            ],
+            [
+              85.4902581981777,
+              28.335430479352468
+            ],
+            [
+              85.49031867585202,
+              28.335022771989383
+            ],
+            [
+              85.4903389,
+              28.3346111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "flood_extent",
+        "segment_id": "FLD-SEG-062",
+        "event_id": "bhote-koshi-2026",
+        "sar_pass_utc": "2026-08-27T00:15:32Z",
+        "sensor": "Sentinel-1 C-band SAR (VV)",
+        "backscatter_mean_db": -18.6,
+        "backscatter_threshold_db": -16.0,
+        "water_prob": 0.96,
+        "flood_water_elevation_m": 2750.0,
+        "water_depth_estimate_m": 14.5,
+        "severity": "critical",
+        "water_type": "active_inundation",
+        "honesty_label": "latest SAR pass: 2026-08-27T00:15:32Z"
+      }
+    }
+  ]
+}

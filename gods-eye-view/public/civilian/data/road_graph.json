@@ -1,0 +1,1098 @@
+{
+  "scenario": "bhote-koshi-2026",
+  "name": "OSM Flood-Penalized Road Graph - Bhote Koshi / Trishuli",
+  "sar_pass_utc": "2026-08-27T00:15:32Z",
+  "honesty_rule": "Sentinel-1 revisits every few days; it is NOT a live video feed. In UI and docs, label it 'latest SAR pass: <date/time UTC>'. Never call SAR real-time.",
+  "nodes": {
+    "N-TIMURE-TOWN": {
+      "id": "N-TIMURE-TOWN",
+      "name": "Timure Bazaar Center",
+      "lon": 85.36658,
+      "lat": 28.25193,
+      "elevation_m": 1689.0,
+      "settlement": "Timure"
+    },
+    "N-TIMURE-LOW-BRIDGE": {
+      "id": "N-TIMURE-LOW-BRIDGE",
+      "name": "Timure Lower River Bridge",
+      "lon": 85.3662,
+      "lat": 28.2512,
+      "elevation_m": 1685.0,
+      "settlement": "Timure"
+    },
+    "N-TIMURE-SPUR": {
+      "id": "N-TIMURE-SPUR",
+      "name": "Timure Ridge Junction",
+      "lon": 85.3682,
+      "lat": 28.2535,
+      "elevation_m": 1740.0,
+      "settlement": "Timure"
+    },
+    "N-TIMURE-SZ": {
+      "id": "N-TIMURE-SZ",
+      "name": "Timure Safe Haven Entry",
+      "lon": 85.3698,
+      "lat": 28.2548,
+      "elevation_m": 1790.0,
+      "safe_zone_id": "SZ-06-TIMURE-CUSTOMS-HIGH-PLATEAU"
+    },
+    "N-SYABRU-TOWN": {
+      "id": "N-SYABRU-TOWN",
+      "name": "Syabru Besi Main Bazaar",
+      "lon": 85.33256,
+      "lat": 28.16025,
+      "elevation_m": 1417.0,
+      "settlement": "Syabru Besi"
+    },
+    "N-SYABRU-LOW-BRIDGE": {
+      "id": "N-SYABRU-LOW-BRIDGE",
+      "name": "Syabru Besi Gorge Crossing",
+      "lon": 85.3321,
+      "lat": 28.1598,
+      "elevation_m": 1414.0,
+      "settlement": "Syabru Besi"
+    },
+    "N-SYABRU-JUNCTION": {
+      "id": "N-SYABRU-JUNCTION",
+      "name": "Syabru Besi North Ascent Spur",
+      "lon": 85.3342,
+      "lat": 28.1615,
+      "elevation_m": 1470.0,
+      "settlement": "Syabru Besi"
+    },
+    "N-SYABRU-SZ": {
+      "id": "N-SYABRU-SZ",
+      "name": "Syabru Besi Safe Haven",
+      "lon": 85.3365,
+      "lat": 28.1632,
+      "elevation_m": 1545.0,
+      "safe_zone_id": "SZ-01-SYABRU-BESI-NORTH"
+    },
+    "N-DHUNCHE-TOWN": {
+      "id": "N-DHUNCHE-TOWN",
+      "name": "Dhunche Town Center",
+      "lon": 85.29533,
+      "lat": 28.11318,
+      "elevation_m": 1960.0,
+      "settlement": "Dhunche"
+    },
+    "N-DHUNCHE-SPUR": {
+      "id": "N-DHUNCHE-SPUR",
+      "name": "Hospital Road Junction",
+      "lon": 85.2968,
+      "lat": 28.1145,
+      "elevation_m": 1970.0,
+      "settlement": "Dhunche"
+    },
+    "N-DHUNCHE-SZ": {
+      "id": "N-DHUNCHE-SZ",
+      "name": "Dhunche Hospital Safe Haven",
+      "lon": 85.2984,
+      "lat": 28.1158,
+      "elevation_m": 1980.0,
+      "safe_zone_id": "SZ-02-DHUNCHE-HOSPITAL"
+    },
+    "N-DHUNCHE-LOW-GORGE": {
+      "id": "N-DHUNCHE-LOW-GORGE",
+      "name": "Trishuli River Bridge below Dhunche",
+      "lon": 85.2941,
+      "lat": 28.1118,
+      "elevation_m": 1290.0,
+      "settlement": "Dhunche"
+    },
+    "N-MAILUNG-TOWN": {
+      "id": "N-MAILUNG-TOWN",
+      "name": "Mailung Bazaar",
+      "lon": 85.21252,
+      "lat": 28.07616,
+      "elevation_m": 800.0,
+      "settlement": "Mailung"
+    },
+    "N-MAILUNG-LOW-CROSS": {
+      "id": "N-MAILUNG-LOW-CROSS",
+      "name": "Mailung River Causeway",
+      "lon": 85.2118,
+      "lat": 28.0755,
+      "elevation_m": 795.0,
+      "settlement": "Mailung"
+    },
+    "N-MAILUNG-SPUR": {
+      "id": "N-MAILUNG-SPUR",
+      "name": "Upper Trishuli Link Road",
+      "lon": 85.2155,
+      "lat": 28.0785,
+      "elevation_m": 880.0,
+      "settlement": "Mailung"
+    },
+    "N-MAILUNG-SZ": {
+      "id": "N-MAILUNG-SZ",
+      "name": "Mailung Safe Haven",
+      "lon": 85.2185,
+      "lat": 28.0815,
+      "elevation_m": 980.0,
+      "safe_zone_id": "SZ-08-MAILUNG-HIGH-TERRACE"
+    },
+    "N-DANDAGAUN-TOWN": {
+      "id": "N-DANDAGAUN-TOWN",
+      "name": "Dandagaun Center",
+      "lon": 85.18943,
+      "lat": 28.0354,
+      "elevation_m": 700.0,
+      "settlement": "Dandagaun"
+    },
+    "N-DANDAGAUN-SPUR": {
+      "id": "N-DANDAGAUN-SPUR",
+      "name": "Dandagaun Ridge Road",
+      "lon": 85.1908,
+      "lat": 28.0368,
+      "elevation_m": 790.0,
+      "settlement": "Dandagaun"
+    },
+    "N-DANDAGAUN-SZ": {
+      "id": "N-DANDAGAUN-SZ",
+      "name": "Dandagaun Safe Haven",
+      "lon": 85.1925,
+      "lat": 28.0382,
+      "elevation_m": 880.0,
+      "safe_zone_id": "SZ-07-DANDAGAUN-VIEWPOINT-BENCH"
+    },
+    "N-BETRAWATI-TOWN": {
+      "id": "N-BETRAWATI-TOWN",
+      "name": "Betrawati Bazaar",
+      "lon": 85.18353,
+      "lat": 27.97589,
+      "elevation_m": 600.0,
+      "settlement": "Betrawati"
+    },
+    "N-BETRAWATI-LOW-BRIDGE": {
+      "id": "N-BETRAWATI-LOW-BRIDGE",
+      "name": "Betrawati Confluence Bridge",
+      "lon": 85.1828,
+      "lat": 27.9749,
+      "elevation_m": 596.0,
+      "settlement": "Betrawati"
+    },
+    "N-BETRAWATI-SPUR": {
+      "id": "N-BETRAWATI-SPUR",
+      "name": "Betrawati Terrace Ascent",
+      "lon": 85.1858,
+      "lat": 27.9785,
+      "elevation_m": 670.0,
+      "settlement": "Betrawati"
+    },
+    "N-BETRAWATI-SZ": {
+      "id": "N-BETRAWATI-SZ",
+      "name": "Betrawati Safe Haven",
+      "lon": 85.1882,
+      "lat": 27.9812,
+      "elevation_m": 740.0,
+      "safe_zone_id": "SZ-04-BETRAWATI-UPPER-TERRACE"
+    },
+    "N-BIDUR-TOWN": {
+      "id": "N-BIDUR-TOWN",
+      "name": "Bidur Municipality Hub",
+      "lon": 85.14802,
+      "lat": 27.92085,
+      "elevation_m": 510.0,
+      "settlement": "Bidur / Trishuli"
+    },
+    "N-BIDUR-LOW-BRIDGE": {
+      "id": "N-BIDUR-LOW-BRIDGE",
+      "name": "Bidur Trishuli Bridge",
+      "lon": 85.1472,
+      "lat": 27.9198,
+      "elevation_m": 506.0,
+      "settlement": "Bidur / Trishuli"
+    },
+    "N-BIDUR-SPUR": {
+      "id": "N-BIDUR-SPUR",
+      "name": "Sports Complex Access Way",
+      "lon": 85.1518,
+      "lat": 27.9238,
+      "elevation_m": 560.0,
+      "settlement": "Bidur / Trishuli"
+    },
+    "N-BIDUR-SZ": {
+      "id": "N-BIDUR-SZ",
+      "name": "Bidur Safe Haven",
+      "lon": 85.1554,
+      "lat": 27.9265,
+      "elevation_m": 620.0,
+      "safe_zone_id": "SZ-03-BIDUR-SPORTS-TERRACE"
+    },
+    "N-DEVIGHAT-TOWN": {
+      "id": "N-DEVIGHAT-TOWN",
+      "name": "Devighat Settlement",
+      "lon": 85.10903,
+      "lat": 27.85852,
+      "elevation_m": 350.0,
+      "settlement": "Devighat"
+    },
+    "N-DEVIGHAT-LOW-BRIDGE": {
+      "id": "N-DEVIGHAT-LOW-BRIDGE",
+      "name": "Devighat Taadi Khola Bridge",
+      "lon": 85.1082,
+      "lat": 27.8576,
+      "elevation_m": 348.0,
+      "settlement": "Devighat"
+    },
+    "N-DEVIGHAT-SPUR": {
+      "id": "N-DEVIGHAT-SPUR",
+      "name": "Mahadev Ridge Road",
+      "lon": 85.1122,
+      "lat": 27.8608,
+      "elevation_m": 410.0,
+      "settlement": "Devighat"
+    },
+    "N-DEVIGHAT-SZ": {
+      "id": "N-DEVIGHAT-SZ",
+      "name": "Devighat Safe Haven",
+      "lon": 85.1152,
+      "lat": 27.8635,
+      "elevation_m": 480.0,
+      "safe_zone_id": "SZ-05-DEVIGHAT-MAHADEV-RIDGE"
+    },
+    "N-HWY-TIMURE-SYABRU": {
+      "id": "N-HWY-TIMURE-SYABRU",
+      "name": "H09 Mid-Valley Link",
+      "lon": 85.348,
+      "lat": 28.205,
+      "elevation_m": 1560.0
+    },
+    "N-HWY-SYABRU-DHUNCHE": {
+      "id": "N-HWY-SYABRU-DHUNCHE",
+      "name": "H09 Dhunche Mountain Pass",
+      "lon": 85.312,
+      "lat": 28.135,
+      "elevation_m": 1880.0
+    },
+    "N-HWY-DHUNCHE-MAILUNG": {
+      "id": "N-HWY-DHUNCHE-MAILUNG",
+      "name": "H09 Trishuli Gorge Road",
+      "lon": 85.245,
+      "lat": 28.095,
+      "elevation_m": 1100.0
+    },
+    "N-HWY-MAILUNG-BETRAWATI": {
+      "id": "N-HWY-MAILUNG-BETRAWATI",
+      "name": "H09 Downstream Highway",
+      "lon": 85.198,
+      "lat": 28.015,
+      "elevation_m": 720.0
+    },
+    "N-HWY-BETRAWATI-BIDUR": {
+      "id": "N-HWY-BETRAWATI-BIDUR",
+      "name": "H09 Trishuli River Link",
+      "lon": 85.165,
+      "lat": 27.948,
+      "elevation_m": 540.0
+    },
+    "N-HWY-BIDUR-DEVIGHAT": {
+      "id": "N-HWY-BIDUR-DEVIGHAT",
+      "name": "H09 South Valley Link",
+      "lon": 85.128,
+      "lat": 27.885,
+      "elevation_m": 420.0
+    }
+  },
+  "edges": [
+    {
+      "edge_id": "E-001-N-TIMU-N-TIMU",
+      "u": "N-TIMURE-TOWN",
+      "v": "N-TIMURE-LOW-BRIDGE",
+      "length_m": 89.3,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 2.6,
+      "walk_time_sec_standard": 104,
+      "walk_time_sec_vulnerable": 156,
+      "description": "Inundated river crossing (4.8m flood surge)",
+      "geometry": [
+        [
+          85.36658,
+          28.25193
+        ],
+        [
+          85.3662,
+          28.2512
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-002-N-TIMU-N-TIMU",
+      "u": "N-TIMURE-TOWN",
+      "v": "N-TIMURE-SPUR",
+      "length_m": 235.9,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 12.2,
+      "walk_time_sec_standard": 547,
+      "walk_time_sec_vulnerable": 821,
+      "description": "Paved uphill evacuation road",
+      "geometry": [
+        [
+          85.36658,
+          28.25193
+        ],
+        [
+          85.3682,
+          28.2535
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-003-N-TIMU-N-TIMU",
+      "u": "N-TIMURE-SPUR",
+      "v": "N-TIMURE-SZ",
+      "length_m": 213.2,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 13.2,
+      "walk_time_sec_standard": 520,
+      "walk_time_sec_vulnerable": 780,
+      "description": "Direct dry path to customs plateau haven",
+      "geometry": [
+        [
+          85.3682,
+          28.2535
+        ],
+        [
+          85.3698,
+          28.2548
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-004-N-TIMU-N-HWY-",
+      "u": "N-TIMURE-SPUR",
+      "v": "N-HWY-TIMURE-SYABRU",
+      "length_m": 5744.6,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.8,
+      "walk_time_sec_standard": 6161,
+      "walk_time_sec_vulnerable": 9241,
+      "description": "Elevated bypass highway",
+      "geometry": [
+        [
+          85.3682,
+          28.2535
+        ],
+        [
+          85.348,
+          28.205
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-005-N-SYAB-N-SYAB",
+      "u": "N-SYABRU-TOWN",
+      "v": "N-SYABRU-LOW-BRIDGE",
+      "length_m": 67.4,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 2.6,
+      "walk_time_sec_standard": 78,
+      "walk_time_sec_vulnerable": 117,
+      "description": "Submerged gorge footbridge (5.4m torrent)",
+      "geometry": [
+        [
+          85.33256,
+          28.16025
+        ],
+        [
+          85.3321,
+          28.1598
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-006-N-SYAB-N-SYAB",
+      "u": "N-SYABRU-TOWN",
+      "v": "N-SYABRU-JUNCTION",
+      "length_m": 212.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 14.0,
+      "walk_time_sec_standard": 539,
+      "walk_time_sec_vulnerable": 808,
+      "description": "North ascent hillside paved track",
+      "geometry": [
+        [
+          85.33256,
+          28.16025
+        ],
+        [
+          85.3342,
+          28.1615
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-007-N-SYAB-N-SYAB",
+      "u": "N-SYABRU-JUNCTION",
+      "v": "N-SYABRU-SZ",
+      "length_m": 294.2,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 14.3,
+      "walk_time_sec_standard": 757,
+      "walk_time_sec_vulnerable": 1135,
+      "description": "Direct dry corridor to North Ridge Safe Haven",
+      "geometry": [
+        [
+          85.3342,
+          28.1615
+        ],
+        [
+          85.3365,
+          28.1632
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-008-N-SYAB-N-HWY-",
+      "u": "N-SYABRU-JUNCTION",
+      "v": "N-HWY-TIMURE-SYABRU",
+      "length_m": 5022.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.0,
+      "walk_time_sec_standard": 4923,
+      "walk_time_sec_vulnerable": 7385,
+      "description": "North trunk road",
+      "geometry": [
+        [
+          85.3342,
+          28.1615
+        ],
+        [
+          85.348,
+          28.205
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-009-N-SYAB-N-HWY-",
+      "u": "N-SYABRU-TOWN",
+      "v": "N-HWY-SYABRU-DHUNCHE",
+      "length_m": 3456.4,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 7.6,
+      "walk_time_sec_standard": 6127,
+      "walk_time_sec_vulnerable": 9190,
+      "description": "High mountain trail to Dhunche",
+      "geometry": [
+        [
+          85.33256,
+          28.16025
+        ],
+        [
+          85.312,
+          28.135
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-010-N-DHUN-N-DHUN",
+      "u": "N-DHUNCHE-TOWN",
+      "v": "N-DHUNCHE-SPUR",
+      "length_m": 205.7,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 2.8,
+      "walk_time_sec_standard": 245,
+      "walk_time_sec_vulnerable": 367,
+      "description": "Main town road towards District Hospital",
+      "geometry": [
+        [
+          85.29533,
+          28.11318
+        ],
+        [
+          85.2968,
+          28.1145
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-011-N-DHUN-N-DHUN",
+      "u": "N-DHUNCHE-SPUR",
+      "v": "N-DHUNCHE-SZ",
+      "length_m": 213.4,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 2.7,
+      "walk_time_sec_standard": 251,
+      "walk_time_sec_vulnerable": 377,
+      "description": "Paved ramp to Hospital Safe Haven & Staging Hub",
+      "geometry": [
+        [
+          85.2968,
+          28.1145
+        ],
+        [
+          85.2984,
+          28.1158
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-012-N-DHUN-N-DHUN",
+      "u": "N-DHUNCHE-TOWN",
+      "v": "N-DHUNCHE-LOW-GORGE",
+      "length_m": 195.2,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 73.8,
+      "walk_time_sec_standard": 1894,
+      "walk_time_sec_vulnerable": 2842,
+      "description": "Flooded lower gorge valley bridge",
+      "geometry": [
+        [
+          85.29533,
+          28.11318
+        ],
+        [
+          85.2941,
+          28.1118
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-013-N-DHUN-N-HWY-",
+      "u": "N-DHUNCHE-SPUR",
+      "v": "N-HWY-SYABRU-DHUNCHE",
+      "length_m": 2723.6,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.9,
+      "walk_time_sec_standard": 2953,
+      "walk_time_sec_vulnerable": 4429,
+      "description": "North mountain ridge link",
+      "geometry": [
+        [
+          85.2968,
+          28.1145
+        ],
+        [
+          85.312,
+          28.135
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-014-N-DHUN-N-HWY-",
+      "u": "N-DHUNCHE-TOWN",
+      "v": "N-HWY-DHUNCHE-MAILUNG",
+      "length_m": 5334.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 9.2,
+      "walk_time_sec_standard": 10434,
+      "walk_time_sec_vulnerable": 15652,
+      "description": "South highway link",
+      "geometry": [
+        [
+          85.29533,
+          28.11318
+        ],
+        [
+          85.245,
+          28.095
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-015-N-MAIL-N-MAIL",
+      "u": "N-MAILUNG-TOWN",
+      "v": "N-MAILUNG-LOW-CROSS",
+      "length_m": 101.9,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 2.8,
+      "walk_time_sec_standard": 121,
+      "walk_time_sec_vulnerable": 182,
+      "description": "Submerged causeway under 3.8m muddy floodwater",
+      "geometry": [
+        [
+          85.21252,
+          28.07616
+        ],
+        [
+          85.2118,
+          28.0755
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-016-N-MAIL-N-MAIL",
+      "u": "N-MAILUNG-TOWN",
+      "v": "N-MAILUNG-SPUR",
+      "length_m": 391.4,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 11.6,
+      "walk_time_sec_standard": 878,
+      "walk_time_sec_vulnerable": 1317,
+      "description": "Hillside spur ascending to Upper Trishuli road",
+      "geometry": [
+        [
+          85.21252,
+          28.07616
+        ],
+        [
+          85.2155,
+          28.0785
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-017-N-MAIL-N-MAIL",
+      "u": "N-MAILUNG-SPUR",
+      "v": "N-MAILUNG-SZ",
+      "length_m": 444.9,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 12.7,
+      "walk_time_sec_standard": 1057,
+      "walk_time_sec_vulnerable": 1586,
+      "description": "Dry evacuation path to Upper Slope Haven",
+      "geometry": [
+        [
+          85.2155,
+          28.0785
+        ],
+        [
+          85.2185,
+          28.0815
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-018-N-MAIL-N-HWY-",
+      "u": "N-MAILUNG-SPUR",
+      "v": "N-HWY-DHUNCHE-MAILUNG",
+      "length_m": 3426.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 3.7,
+      "walk_time_sec_standard": 4447,
+      "walk_time_sec_vulnerable": 6671,
+      "description": "High gorge highway link",
+      "geometry": [
+        [
+          85.2155,
+          28.0785
+        ],
+        [
+          85.245,
+          28.095
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-019-N-MAIL-N-DAND",
+      "u": "N-MAILUNG-SPUR",
+      "v": "N-DANDAGAUN-TOWN",
+      "length_m": 5432.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.9,
+      "walk_time_sec_standard": 5893,
+      "walk_time_sec_vulnerable": 8840,
+      "description": "Hillside connection to Dandagaun",
+      "geometry": [
+        [
+          85.2155,
+          28.0785
+        ],
+        [
+          85.18943,
+          28.0354
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-020-N-DAND-N-DAND",
+      "u": "N-DANDAGAUN-TOWN",
+      "v": "N-DANDAGAUN-SPUR",
+      "length_m": 205.7,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 23.6,
+      "walk_time_sec_standard": 759,
+      "walk_time_sec_vulnerable": 1139,
+      "description": "Ridge approach road",
+      "geometry": [
+        [
+          85.18943,
+          28.0354
+        ],
+        [
+          85.1908,
+          28.0368
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-021-N-DAND-N-DAND",
+      "u": "N-DANDAGAUN-SPUR",
+      "v": "N-DANDAGAUN-SZ",
+      "length_m": 228.2,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 21.5,
+      "walk_time_sec_standard": 785,
+      "walk_time_sec_vulnerable": 1177,
+      "description": "Direct path to Viewpoint Safe Haven",
+      "geometry": [
+        [
+          85.1908,
+          28.0368
+        ],
+        [
+          85.1925,
+          28.0382
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-022-N-DAND-N-HWY-",
+      "u": "N-DANDAGAUN-SPUR",
+      "v": "N-HWY-MAILUNG-BETRAWATI",
+      "length_m": 2525.0,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.6,
+      "walk_time_sec_standard": 2645,
+      "walk_time_sec_vulnerable": 3968,
+      "description": "South highway link",
+      "geometry": [
+        [
+          85.1908,
+          28.0368
+        ],
+        [
+          85.198,
+          28.015
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-023-N-BETR-N-BETR",
+      "u": "N-BETRAWATI-TOWN",
+      "v": "N-BETRAWATI-LOW-BRIDGE",
+      "length_m": 131.4,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 1.7,
+      "walk_time_sec_standard": 140,
+      "walk_time_sec_vulnerable": 210,
+      "description": "Severed confluence bridge (under 4.2m flood surge)",
+      "geometry": [
+        [
+          85.18353,
+          27.97589
+        ],
+        [
+          85.1828,
+          27.9749
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-024-N-BETR-N-BETR",
+      "u": "N-BETRAWATI-TOWN",
+      "v": "N-BETRAWATI-SPUR",
+      "length_m": 365.9,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 10.8,
+      "walk_time_sec_standard": 789,
+      "walk_time_sec_vulnerable": 1183,
+      "description": "Paved terrace ascent road",
+      "geometry": [
+        [
+          85.18353,
+          27.97589
+        ],
+        [
+          85.1858,
+          27.9785
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-025-N-BETR-N-BETR",
+      "u": "N-BETRAWATI-SPUR",
+      "v": "N-BETRAWATI-SZ",
+      "length_m": 381.7,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 10.4,
+      "walk_time_sec_standard": 803,
+      "walk_time_sec_vulnerable": 1204,
+      "description": "Dry corridor to Upper Agricultural Terraces",
+      "geometry": [
+        [
+          85.1858,
+          27.9785
+        ],
+        [
+          85.1882,
+          27.9812
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-026-N-BETR-N-HWY-",
+      "u": "N-BETRAWATI-SPUR",
+      "v": "N-HWY-MAILUNG-BETRAWATI",
+      "length_m": 4231.7,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 0.7,
+      "walk_time_sec_standard": 3970,
+      "walk_time_sec_vulnerable": 5956,
+      "description": "North highway link",
+      "geometry": [
+        [
+          85.1858,
+          27.9785
+        ],
+        [
+          85.198,
+          28.015
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-027-N-BETR-N-HWY-",
+      "u": "N-BETRAWATI-SPUR",
+      "v": "N-HWY-BETRAWATI-BIDUR",
+      "length_m": 3959.2,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.9,
+      "walk_time_sec_standard": 4287,
+      "walk_time_sec_vulnerable": 6430,
+      "description": "South highway link",
+      "geometry": [
+        [
+          85.1858,
+          27.9785
+        ],
+        [
+          85.165,
+          27.948
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-028-N-BIDU-N-BIDU",
+      "u": "N-BIDUR-TOWN",
+      "v": "N-BIDUR-LOW-BRIDGE",
+      "length_m": 141.9,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 1.6,
+      "walk_time_sec_standard": 149,
+      "walk_time_sec_vulnerable": 223,
+      "description": "Flooded main river bridge (4.1m water over roadway)",
+      "geometry": [
+        [
+          85.14802,
+          27.92085
+        ],
+        [
+          85.1472,
+          27.9198
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-029-N-BIDU-N-BIDU",
+      "u": "N-BIDUR-TOWN",
+      "v": "N-BIDUR-SPUR",
+      "length_m": 495.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 5.8,
+      "walk_time_sec_standard": 767,
+      "walk_time_sec_vulnerable": 1151,
+      "description": "Paved urban avenue towards stadium ridge",
+      "geometry": [
+        [
+          85.14802,
+          27.92085
+        ],
+        [
+          85.1518,
+          27.9238
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-030-N-BIDU-N-BIDU",
+      "u": "N-BIDUR-SPUR",
+      "v": "N-BIDUR-SZ",
+      "length_m": 463.9,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 7.4,
+      "walk_time_sec_standard": 807,
+      "walk_time_sec_vulnerable": 1211,
+      "description": "Wide dry corridor to Sports Complex Safe Haven",
+      "geometry": [
+        [
+          85.1518,
+          27.9238
+        ],
+        [
+          85.1554,
+          27.9265
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-031-N-BIDU-N-HWY-",
+      "u": "N-BIDUR-SPUR",
+      "v": "N-HWY-BETRAWATI-BIDUR",
+      "length_m": 2987.1,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 0.4,
+      "walk_time_sec_standard": 2697,
+      "walk_time_sec_vulnerable": 4046,
+      "description": "North highway trunk",
+      "geometry": [
+        [
+          85.1518,
+          27.9238
+        ],
+        [
+          85.165,
+          27.948
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-032-N-BIDU-N-HWY-",
+      "u": "N-BIDUR-SPUR",
+      "v": "N-HWY-BIDUR-DEVIGHAT",
+      "length_m": 4907.5,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 1.6,
+      "walk_time_sec_standard": 5168,
+      "walk_time_sec_vulnerable": 7753,
+      "description": "South valley trunk",
+      "geometry": [
+        [
+          85.1518,
+          27.9238
+        ],
+        [
+          85.128,
+          27.885
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-033-N-DEVI-N-DEVI",
+      "u": "N-DEVIGHAT-TOWN",
+      "v": "N-DEVIGHAT-LOW-BRIDGE",
+      "length_m": 130.9,
+      "status": "flooded",
+      "is_flooded": true,
+      "slope_deg": 0.9,
+      "walk_time_sec_standard": 125,
+      "walk_time_sec_vulnerable": 188,
+      "description": "Submerged Taadi Khola bridge (3.5m flood depth)",
+      "geometry": [
+        [
+          85.10903,
+          27.85852
+        ],
+        [
+          85.1082,
+          27.8576
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-034-N-DEVI-N-DEVI",
+      "u": "N-DEVIGHAT-TOWN",
+      "v": "N-DEVIGHAT-SPUR",
+      "length_m": 401.7,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 8.5,
+      "walk_time_sec_standard": 753,
+      "walk_time_sec_vulnerable": 1130,
+      "description": "Paved ascent to Mahadev Ridge",
+      "geometry": [
+        [
+          85.10903,
+          27.85852
+        ],
+        [
+          85.1122,
+          27.8608
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-035-N-DEVI-N-DEVI",
+      "u": "N-DEVIGHAT-SPUR",
+      "v": "N-DEVIGHAT-SZ",
+      "length_m": 420.8,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 9.4,
+      "walk_time_sec_standard": 837,
+      "walk_time_sec_vulnerable": 1256,
+      "description": "Dry safe corridor to Devighat Haven",
+      "geometry": [
+        [
+          85.1122,
+          27.8608
+        ],
+        [
+          85.1152,
+          27.8635
+        ]
+      ]
+    },
+    {
+      "edge_id": "E-036-N-DEVI-N-HWY-",
+      "u": "N-DEVIGHAT-SPUR",
+      "v": "N-HWY-BIDUR-DEVIGHAT",
+      "length_m": 3106.9,
+      "status": "dry",
+      "is_flooded": false,
+      "slope_deg": 0.2,
+      "walk_time_sec_standard": 2731,
+      "walk_time_sec_vulnerable": 4097,
+      "description": "North highway link",
+      "geometry": [
+        [
+          85.1122,
+          27.8608
+        ],
+        [
+          85.128,
+          27.885
+        ]
+      ]
+    }
+  ],
+  "stats": {
+    "node_count": 37,
+    "edge_count": 36,
+    "dry_edge_count": 29,
+    "flooded_edge_count": 7
+  }
+}
